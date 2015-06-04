@@ -69,7 +69,19 @@ $(document).ready(function() {
 		new UIMorphingButton( document.querySelector( '.morph-button' ) );
 		// for demo purposes only
 		[].slice.call( document.querySelectorAll( 'form button' ) ).forEach( function( bttn ) { 
-			bttn.addEventListener( 'click', function( ev ) { ev.preventDefault(); } );
+			bttn.addEventListener( 'click', function( ev ) { ev.preventDefault();
+                var x = document.getElementById("myText").value;
+                console.log(x);
+            Parse.initialize("wV0EdkzhqpfWHRE1vPYlotBpMkXdUKQl1qvhPtxG", "Fr1KPDcQMzZx1S7WIf9YdqUjEtGIUISNVHUt3XQG");
+                                  
+                var TestObject = Parse.Object.extend("UserEmail");
+                var testObject = new TestObject();
+                testObject.save({email: x}).then(function(object) {
+                                                                     alert("Thanks! We have saved your email");
+                                                                     });
+                                  
+                                  
+} );
 		} );
 
 });
