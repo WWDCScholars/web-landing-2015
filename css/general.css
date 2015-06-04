@@ -156,9 +156,9 @@ span.mybutton_standard {
 	background-color: #6C4FA0;
 }
 
-.mybutton_cyano:hover{
+a.mybutton_cyano:hover{
 	color: #6C4FA0;
-	background: white;
+	background-color: white;
 }
 
 .button_down img {
