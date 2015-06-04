@@ -254,7 +254,7 @@ color: #ECEBEB;
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 50px;
 	color: #f8f8f8;
-	background: url(http://assetcdn.500px.org/assets/home/home_cover-24ebb0d7f67470e461c8ccddabe501f7.jpg) no-repeat center center;
+	background: url(../img/bigImage.jpg) no-repeat center center;
 	background-size: cover;
 	text-align: center;
 }
@@ -306,7 +306,7 @@ color: #ECEBEB;
 	border-top: 1px solid #e7e7e7;
 	border-bottom: 1px solid #e7e7e7;
 	padding: 90px 0; 
-	background-color: white;
+	background-color: ffffff;
 }
 
 .section-heading {
