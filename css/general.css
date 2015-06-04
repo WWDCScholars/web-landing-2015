@@ -12,7 +12,7 @@ body, html {
 	height: 100%;
 	width: 100%;
 	overflow-x:hidden;
-	background-color: #6C4FA0;
+	background-color: #fff;
 }
 
 ::-moz-selection{background:#6C4FA0;color:white}
@@ -133,11 +133,22 @@ filter: alpha(opacity=95) !important;
 	margin:-100px 0 0 -100px; /* is width and height divided by two */
 }
 
+#screen {
+	background-color: #6C4FA0;
+}
+
+#screen h2 {
+	color: white;
+}
 
 /* Button */ 
 .mybutton_standard {
 	border: 1px solid #fff;
 	color: #fff;
+}
+
+span.mybutton_standard {
+	cursor: default;
 }
 
 .mybutton_cyano{
@@ -146,7 +157,7 @@ filter: alpha(opacity=95) !important;
 }
 
 .mybutton_cyano:hover{
-	color: #6C4FA0 !important;
+	color: #6C4FA0;
 	background: white;
 }
 
@@ -282,7 +293,6 @@ color: #ECEBEB;
 
 
 .network-name {
-	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: 1.5px;
 }
@@ -1250,14 +1260,6 @@ p.copyright {
 		display: none;
 	}
 
-}
-
-#screen {
-	background-color: rgba(225,255,255,0);
-}
-
-#screen h2 {
-	color: white;
 }
 
 .michie {
